@@ -1,3 +1,4 @@
 $(document).ready(function(){
-  // your code here!
+  const commentApp = new CommentList()
+  commentApp.render()
 })
